@@ -1,0 +1,21 @@
+{
+  "name": "@anton.buldygin80/my-ts-library",
+  "version": "1.0.0",
+  "description": "A simple TypeScript math library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/my-ts-library.git"
+  },
+  "keywords": ["typescript", "math", "library"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
